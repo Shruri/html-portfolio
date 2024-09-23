@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    body{
+      background-color: rgba(47, 178, 152, 0.866);
+    }
+    .flag{
+      height: 700px;
+      width: 1000px;
+      background-color:rgb(206, 17, 38);
+      position: relative;
+    }
+    .flag > div{
+      height: 300px;
+      width: 1000px;
+      background-color:#002868 ;
+      position: absolute;
+      top: 200px;
+    }
+    .flag > div > div{
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      background-color: white;
+      position: absolute;
+      left: 400px ;
+      top: 50px;
+    }
+    h1{
+      text-align: center;
+    }
+    .safron{
+      height: 300px;
+      width:1000px;
+      background-color: #FF671F;
+    }
+    .white{
+      height:300px;
+      width: 1000px;
+      background-color: white;
+    }
+    .white>div{
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      background-image:url(ring.png);
+      background-repeat: no-repeat;
+      position: relative;
+      left: 400px;
+      top: 50px;
+    }
+    .green{
+      height: 300px;
+      width: 1000px;
+      background-color:  #046A38;
+    }
+  </style>
+</head>
+<body>
+  <h1><u>Flags of different countries</u></h1>
+  <ul>
+  <li style="font-size: 25px;">Flag of Laos</li>
+  <div class="flag">
+    <div>
+      <div>
+      </div>
+    </div>
+  </div>
+  <br/>
+  <br/>
+  <br/>
+  <hr size="5" color="black" width="100%"/>
+  <br/>
+  <br/>
+  <li style="font-size: 25px;">Indian Flag</li>
+  <div class="safron"></div>
+  <div class="white">
+    <div class="ring"></div>
+  </div>
+  <div class="green"></div>
+</ul>
+</body>
+
+</html>
